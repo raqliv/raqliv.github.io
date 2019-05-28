@@ -1,5 +1,4 @@
 body {
-  background: #EEE;
   margin: 0;
   padding: 0;
 }
@@ -7,9 +6,15 @@ body {
 h1{
   color: rgb(255, 0, 0);
 }
+h2{
+  color: blue;
+  font-style: bold;
+  font-family: Arial;
+  font-size: 20px;
+}
 
 p{
-  font-size: 12px;
+  font-size: 17px;
   color: teal;
   font-family: Arial;
 }
@@ -25,12 +30,12 @@ p{
 
 .navigation {
   box-sizing: border-box;
-  background-color: #3587A4;
+  background-color: pink;
   overflow: auto;
   padding: 18px 50px;
   position: relative;
   top: 0;
-  width: 100%;
+  width: 50%;
   z-index: 999;
 }
 
@@ -40,7 +45,7 @@ ul {
 }
 
 li {
-  color: rgb(0, 255, 0);
+  color: black;
   font-family: sans-serif;
   font-size: 16px;
   margin: 0;
