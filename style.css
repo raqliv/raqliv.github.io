@@ -4,6 +4,16 @@ body {
   padding: 0;
 }
 
+h1{
+  color: rgb(50, 100, 100);
+}
+
+p{
+  font-size: 20px;
+  color: teal;
+  font-family: fantasy;
+}
+
 /* Navigation */
 
 .navigation {
