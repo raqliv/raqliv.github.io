@@ -4,26 +4,43 @@
 
 <head>
   <link href="style.css" type="text/css" rel="stylesheet">
+  <script src="myScript.js"></script>
   <title>Website Demo</title>
 </head>
 
 <body>
-  <h1 class ="title";>Welcome<h1>
-  <div class="navigation">
-      <nav>
-        <a href="https://github.com/raqliv">GitHub</a>
-        <a href="https://www.linkedin.com/in/raqlivingston/">LinkedIn</a>
-        <a>Courses</a>
-        <a href="https://en.wikipedia.org/wiki/Bubble_tea">Bubble Tea</a>
-      </nav>
+  <div class="tab">
+    <button class="tablink" onclick="openTab('Home', this)" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openTab('CSCourses/Projects', this)">CS Courses/Projects</button>
+    <button class="tablink" onclick="openTab('JapaneseStudies', this)">Japanese Studies</button>
   </div>
 
-  <div class="main">
-      <h2>Hello</h2>
-      <p>MY name is Raquel Livingston and welcome to my site.</p>
-      <p>I love music bro. Kehlani, Snoh, NAO, Dijon, R&B gang gang</p>
-      <p>Hello world. Yadda Yadda Yadda. Hello hello. We're gonna figure this out!</p>
+  <div id = "Home" class = "tabcontent">
+    <h1 class ="title";>Welcome<h1>
+    <div class="navigation">
+        <nav>
+          <a href="https://github.com/raqliv">GitHub</a>
+          <a href="https://www.linkedin.com/in/raqlivingston/">LinkedIn</a>
+          <a href="https://en.wikipedia.org/wiki/Bubble_tea">Bubble Tea</a>
+        </nav>
+    </div>
+    <div class="main">
+        <h2>Hello</h2>
+        <p>MY name is Raquel Livingston and welcome to my site.</p>
+        <p>I love music bro. Kehlani, Snoh, NAO, Dijon, R&B gang gang</p>
+        <p>Hello world. Yadda Yadda Yadda. Hello hello. We're gonna figure this out!</p>
+    </div>
+  </div>
 
+  <div id = "CSCoursesProjects" class="tabcontent">
+    <h1 class="title";>CS Courses/Projects<h1>
+    <p>Here the CS I've taken so far at Williams</p>
+  </div>
+
+  <div id = "JapaneseStudies" class="tabcontent">
+    <h1 class="title";>Japanese Studies<h1>
+    <p>I have studied Japanese for 2 years now and will be
+      studying abroad in Kyoto Japan next fall!</p>
   </div>
 
 </body>

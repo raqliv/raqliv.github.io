@@ -1,6 +1,6 @@
 body {
+  height: 100%;
   margin: 0;
-  padding: 0;
 }
 
 h1{
@@ -57,3 +57,30 @@ li {
   padding: 20px 18px 10px 18px;
   text-transform: uppercase;
 }
+/*Style tablinks*/
+.tablink{
+  background-color: white;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 18px;
+  width: 33%;
+}
+
+.tablink:hover{
+  background-color: black;
+  color: white;
+}
+/*Style tabcontent*/
+.tabcontent{
+  display: none;
+  height: 100%;
+  padding: 100px 20px;
+}
+
+#Home {background-color: rgb(211, 243, 255)}
+#CSCoursesProjects {background-color: rgb(255, 238, 211)}
+#JapaneseStudies {background-color:  rgb(255, 215, 211)}
