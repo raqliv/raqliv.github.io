@@ -36,6 +36,11 @@ a {
   margin: 0;
 }
 
+/*Instagram media*/
+.instagram-media{
+  margin: 0;
+  position: right;
+}
 /* Navigation */
 
 .navigation{
