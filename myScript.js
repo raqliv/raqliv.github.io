@@ -10,7 +10,3 @@ function openTab(pageName, elmnt){
   }
   document.getElementById(pageName).style.display = "block";
 }
-
-function defaultTab(){
-document.getElementById("defaultOpen").click();
-}
