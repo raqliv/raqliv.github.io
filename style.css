@@ -33,7 +33,7 @@ a{
 
 /* Navigation */
 
-.navigation {
+.navigation{
   box-sizing: border-box;
   background-color: pink;
   overflow: auto;

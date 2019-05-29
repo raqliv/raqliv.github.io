@@ -10,4 +10,6 @@ function openTab(pageName, elmnt){
   }
   document.getElementsById(pageName).style.display = "block";
 }
+function defaultTab(){
 document.getElementsById("defaultOpen").click();
+}
