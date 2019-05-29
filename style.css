@@ -77,6 +77,7 @@ li {
 }
 /*Style tabcontent*/
 .tabcontent{
+  display: none;
   height: 100%;
   padding: 100px 20px;
 }
