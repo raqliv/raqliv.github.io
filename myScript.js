@@ -1,4 +1,5 @@
 function openTab(pageName, elmnt){
+  alert("I'm in the javascript!")
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -10,6 +11,7 @@ function openTab(pageName, elmnt){
   }
   document.getElementsById(pageName).style.display = "block";
 }
+alert("I'm outside of open tab!")
 function defaultTab(){
 document.getElementsById("defaultOpen").click();
 }
