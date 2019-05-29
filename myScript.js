@@ -1,5 +1,4 @@
 function openTab(pageName, elmnt){
-  alert("I'm in the javascript!")
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
