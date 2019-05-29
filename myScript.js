@@ -1,4 +1,4 @@
-function openTab(pageName, elmnt){
+function openTab(pageName, elmnt, color){
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -9,5 +9,5 @@ function openTab(pageName, elmnt){
     tablinks[i].style.backgroundColor = "";
   }
   document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor =   document.getElementById(pageName).style.backgroundColor;
+  elmnt.style.backgroundColor =   color;
 }
