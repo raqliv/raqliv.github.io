@@ -2,12 +2,13 @@
 
 body, html{
   height: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 h1 {
   color: rgb(255, 0, 0);
 }
+
 h2 {
   color: blue;
   font-style: bold;
@@ -32,6 +33,7 @@ a {
   font-family: Arial;
   color: rgb(200, 10, 45);
   text-transform: uppercase;
+  margin: 0;
 }
 
 /* Navigation */
