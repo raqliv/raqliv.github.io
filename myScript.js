@@ -6,7 +6,7 @@ function openTab(pageName, elmnt){
     tabcontent[i].style.display = "none";
   }
   tablinks = document.getElementsByClassName("tablink")
-  for(int i = 0; i < tablinks.length; i++){
+  for(i = 0; i < tablinks.length; i++){
     tablinks[i].style.backgroundColor = "";
   }
   document.getElementsById(pageName).style.display = "block";

@@ -24,6 +24,7 @@ a{
   font-family: sans-serif;
   font-size: 15px;
 }
+
 .title{
   font-size: 30px;
   font-family: Arial;
@@ -76,7 +77,6 @@ li {
 }
 /*Style tabcontent*/
 .tabcontent{
-  display: none;
   height: 100%;
   padding: 100px 20px;
 }
