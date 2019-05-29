@@ -1,4 +1,6 @@
-body{
+* {box-sizing: border-box}
+
+body, html{
   height: 100%;
   margin: 0;
 }
@@ -42,7 +44,6 @@ a {
   position: relative;
   top: 0;
   width: 50%;
-  z-index: 999;
 }
 
 
@@ -50,7 +51,7 @@ a {
 .tablink{
   color: black;
   float: left;
-  border: 5px;
+  border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -68,7 +69,6 @@ a {
   display: none;
   height: 100%;
   width: 100%;
-
 }
 
 #Home, .b1 {background-color: rgb(211, 243, 255)}
