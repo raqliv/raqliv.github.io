@@ -71,6 +71,6 @@ a {
 
 }
 
-#Home {background-color: rgb(211, 243, 255)}
-#CSCoursesProjects {background-color: rgb(255, 238, 211)}
-#JapaneseStudies {background-color:  rgb(255, 215, 211)}
+#Home, .b1{background-color: rgb(211, 243, 255)}
+#CSCoursesProjects, .b2 {background-color: rgb(255, 238, 211)}
+#JapaneseStudies, b3{background-color:  rgb(255, 215, 211)}
