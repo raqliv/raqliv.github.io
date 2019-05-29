@@ -8,9 +8,9 @@ function openTab(pageName, elmnt){
   for(i = 0; i < tablinks.length; i++){
     tablinks[i].style.backgroundColor = "";
   }
-  document.getElementsById(pageName).style.display = "block";
+  document.getElementById(pageName).style.display = "block";
 }
 
 function defaultTab(){
-document.getElementsById("defaultOpen").click();
+document.getElementById("defaultOpen").click();
 }
