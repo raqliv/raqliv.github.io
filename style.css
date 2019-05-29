@@ -70,8 +70,7 @@ a {
 /*Style tabcontent*/
 .tabcontent{
   display: none;
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
 }
 
 #Home, .b1 {background-color: rgb(211, 243, 255)}
