@@ -11,7 +11,7 @@ function openTab(pageName, elmnt){
   }
   document.getElementsById(pageName).style.display = "block";
 }
-alert("I'm outside of open tab!")
+
 function defaultTab(){
 document.getElementsById("defaultOpen").click();
 }
