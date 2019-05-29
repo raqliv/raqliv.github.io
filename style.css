@@ -1,12 +1,12 @@
-body {
+body, html{
   height: 100%;
   margin: 0;
 }
 
-h1{
+h1 {
   color: rgb(255, 0, 0);
 }
-h2{
+h2 {
   color: blue;
   font-style: bold;
   font-family: Arial;
@@ -14,13 +14,13 @@ h2{
   position: left;
 }
 
-p{
+p {
   font-size: 17px;
   color: teal;
   font-family: Arial;
 }
 
-a{
+a {
   font-family: sans-serif;
   font-size: 15px;
 }
