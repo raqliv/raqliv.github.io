@@ -22,6 +22,7 @@ p {
   font-size: 17px;
   color: teal;
   font-family: Arial;
+  position: center;
 }
 
 a {
@@ -37,7 +38,8 @@ instagram-media {
   font-family: Arial;
   color: rgb(200, 10, 45);
   text-transform: uppercase;
-  margin: 0;
+  margin: 10;
+  position: center;
 }
 
 /* Navigation */
