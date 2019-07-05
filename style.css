@@ -23,6 +23,8 @@ p {
   color: teal;
   font-family: Arial;
   text-align: center;
+  display: inline-block;
+  vertical-align: top;
 }
 
 a {
@@ -72,8 +74,11 @@ a {
 }
 
 .instagram-media{
-  position: absolute;
-  left: 10%;
+  position: relative;
+  left: 30%;
+  display: inline-block;
+  vertical-align: top;
+
 }
 /*Style tabcontent*/
 .tabcontent{
