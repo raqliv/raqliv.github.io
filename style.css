@@ -7,6 +7,7 @@ body, html{
 
 h1 {
   color: rgb(255, 0, 0);
+  position: center;
 }
 
 h2 {
@@ -28,6 +29,9 @@ a {
   font-size: 15px;
 }
 
+instagram-media {
+  position: center;
+}
 .title{
   font-size: 30px;
   font-family: Arial;
@@ -42,10 +46,11 @@ a {
   box-sizing: border-box;
   background-color: pink;
   overflow: auto;
-  padding: 18px 18px;
+  padding: 15px 15px;
   position: relative;
   top: 0;
   width: 50%;
+  font-size: 20px;
 }
 
 
