@@ -2,6 +2,7 @@
   "name": "raqliv.github.io",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://raqliv.github.io",
   "main": "myScript.js",
   "scripts": {
     "predeploy": "npm run build",
