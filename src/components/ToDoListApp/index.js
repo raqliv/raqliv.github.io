@@ -7,17 +7,6 @@ import './index.css';
 
 const ToDo = () => {
     const [ toDoList, setToDoList ] = useState(data);
-    const [posts, setPosts ] = useState([]);
-
-    useEffect(() => {
-      axios.get('https://jsonplaceholder.typicode.com/posts')
-        .then(response => {
-          setPosts(response.data);
-        })
-        .catch(error => {
-          console.error(error);
-        });
-    }, []);
 
     //function to toggle strikethrough
     // pass in id of item that was clicked, map toDoList to a new arry, 
